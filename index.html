@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tamiq.kz — закупки для заведений</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <strong class="logo">Tamiq<span>.kz</span></strong>
+      <a class="button button-light" href="#catalog">Открыть каталог</a>
+    </nav>
+    <div class="hero-content container">
+      <p class="eyebrow">B2B procurement для Казахстана</p>
+      <h1>Закупки для кафе<br>без хаоса в чатах</h1>
+      <p class="lead">Tamiq.kz помогает ресторанам, кафе и кофейням быстро заказывать продукты у поставщиков.</p>
+      <a class="button button-primary" href="#catalog">Посмотреть демо</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="catalog">
+      <p class="eyebrow">Демо-каталог</p>
+      <h2>Популярные товары</h2>
+      <div class="filters">
+        <button class="filter active" data-category="all">Все</button>
+        <button class="filter" data-category="coffee">Кофе и молоко</button>
+        <button class="filter" data-category="syrups">Сиропы и стаканы</button>
+        <button class="filter" data-category="fresh">Овощи и мясо</button>
+      </div>
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="order-section">
+      <div class="container order-grid">
+        <div>
+          <p class="eyebrow">Как это работает</p>
+          <h2>От выбора товара до заявки — несколько кликов</h2>
+        </div>
+        <div class="steps">
+          <div><b>01</b><span>Выберите товары и количество</span></div>
+          <div><b>02</b><span>Соберите заказ в корзине</span></div>
+          <div><b>03</b><span>Отправьте заявку менеджеру</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><strong class="logo">Tamiq<span>.kz</span></strong><span>Демо MVP · 2026</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
